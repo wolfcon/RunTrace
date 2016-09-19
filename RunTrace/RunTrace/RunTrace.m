@@ -26,7 +26,7 @@
 }
 +(void)hookMethod:(Class)cls OriginSelector:(SEL)originalSelector SwizzledSelector:(SEL)swizzledSelector;
 @end
-#if RunTraceOpen
+#if DEBUG
 @implementation UIWindow (Load)
 +(void)load
 {
